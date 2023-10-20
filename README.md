@@ -1,7 +1,9 @@
 #Bubble Game
+
 Welcome to the Bubble Game! This web-based game is a fun and challenging way to test your reflexes and hand-eye coordination. In this game, you will need to pop bubbles to earn points within a 60-second time limit. Make sure you aim accurately because hitting the wrong bubble will reset your score to zero.
 
 #How to Play
+
 Game Objective: The goal of the game is to earn as many points as possible within a 60-second time limit.
 
 Timer: The game has a built-in timer set to 60 seconds. You must score as many points as you can before the timer runs out.
