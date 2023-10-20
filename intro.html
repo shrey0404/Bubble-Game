@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(175, 180, 235);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgb(118, 138, 204);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .start-button {
+            text-decoration: none;
+            background-color: rgb(175, 180, 235);
+            color: #fff;
+            border: none;
+            padding: 15px 25px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .start-button:hover {
+            background-color: rgb(49, 77, 166);
+        }
+
+        .rules {
+            text-align: left;
+            margin-top: 40px;
+            color: #ffffff;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Bubble Game!</h1>
+        <p>Pop the bubbles and have fun in this exciting game. Are you ready to test your skills?</p>
+        <a href="index.html" class="start-button">Start Game</a>
+        <div class="rules">
+            <h2>Game Rules:</h2>
+            <ul>
+                <li>Match the hit score with the bubble value to earn 10 points.</li>
+                <li>The score is incremented by 10 for each matching hit.</li>
+                <li>The hit values and bubble values get updated for the next match.</li>
+                <li>Try to achieve the maximum score within 60 seconds to get the highest score.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
