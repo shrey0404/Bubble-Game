@@ -22,12 +22,11 @@ function runtimer() {
     var timerint = setInterval(function () {
         if (timer > 0) {
             timer--;
-            document.querySelector("#timerchanged").textContent = timer;
-        } 
-        else {
+            document.querySelector("#timerval").textContent = timer;
+        } else {
             clearInterval(timerint);
         }
-    }, 1000)
+    }, 1000);
 }
 
 function getsethit() {
@@ -45,7 +44,9 @@ document.querySelector("#pbtm")
        builtbubble();
     }
     else {
-        alert('Wrong Info!')
+        getsethit();
+        runtimer();
+        setscore();
     }
 })
 
